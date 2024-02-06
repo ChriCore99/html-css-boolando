@@ -63,7 +63,7 @@ main section {
     opacity: 1;
 }
 
-span {
+main span {
     color: red;
     margin-right: 5px;
 }
@@ -124,6 +124,21 @@ span {
     top: 0px;
     left: 0px;
     opacity: 0;
+}
+
+/* footer */
+.col-info h2 {
+    display: flex;
+    align-items: start;
+}
+
+.footer-section {
+    background-color: grey;
+}
+
+.footer-section .row {
+    height: 100px;
+    text-align: center;
 }
 
 /* debug */
