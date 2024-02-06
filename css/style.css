@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
 }
     
 ul, ol, menu {
@@ -20,15 +20,22 @@ a {
 }
 
 /* layout */
+/* header */
 
-.container {
+.header-section {
     background-color: #ff6900;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -36,4 +43,18 @@ a {
 
 .col img {
     max-width: 110px;
+}
+
+/* main */
+main {
+    margin-top: 35px;
+}
+
+main section {
+    padding-bottom: 10px;
+}
+
+.col-3 {
+    width: calc(97% / 3);
+    color: black;
 }
