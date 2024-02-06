@@ -51,10 +51,15 @@ main {
 }
 
 main section {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .col-3 {
     width: calc(97% / 3);
     color: black;
+}
+
+span {
+    color: red;
+    margin-right: 5px;
 }
