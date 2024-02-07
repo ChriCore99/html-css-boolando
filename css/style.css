@@ -55,7 +55,8 @@ main section {
 }
 
 .col-3 {
-    width: calc(97% / 3);
+    width: calc(100% / 3);
+    padding-left: 10px;
     color: black;
 }
 
